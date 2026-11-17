@@ -267,10 +267,10 @@ const SITE = {
   role: "Digital Artist & Illustrator",
   tagline: "Your vision. Your interpretation. Your art.",
 
-  // HERO (header) images. Put files in assets/. Leave "" to show a placeholder.
-  heroImage:  "slay.png",   // large artwork on the right, e.g. "assets/hero.png" (transparent PNG works best)
-  heroBanner: "no noise.png",   // wide strip in the rounded pill, e.g. "assets/banner.jpg"
-  signature:  "Kimberly Quisto, Artist",   // handwritten caption under the artwork
+  
+  heroImage:  "slay.png",  
+  heroBanner: "no noise.png", 
+  signature:  "Kimberly Quisto, Artist",  
 
   bio: [
     "I'm a Entertainment and Multimedia Computing Major in Digital Animation Technology (EMC-DAT) Student. I’m also an illustrator with an experience as an Art Director for a school organization. I enjoy developing visual concepts, creating illustrations, and bringing ideas to life. Art can be interpreted in many ways, that why I strive to create work that leaves room for each viewer to see it through their own perspective.",
@@ -372,7 +372,7 @@ const cards = SITE.projects.map((p, i) => {
   $("grid").append(card); return card;
 });
 
-/* Filters (built from your categories) */
+/* Filters (built from categories) */
 ["All", ...new Set(SITE.projects.map(p => p.category))].forEach((c, i) => {
   const b = h("button", { class: "chip" + (i ? "" : " active"), type: "button" }, c);
   b.onclick = () => {
