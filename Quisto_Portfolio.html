@@ -218,7 +218,7 @@
       <div class="reveal"><h2>About me</h2><div id="bio"></div></div>
       <div class="reveal">
         <div class="card skill-group"><h3>Core skills</h3><div class="tags" id="skills"></div></div>
-        <div class="card skill-group"><h3>Tools &amp; software</h3><div class="tags" id="tools"></div></div>
+        <div class="card skill-group"><h3>Software</h3><div class="tags" id="tools"></div></div>
       </div>
     </div>
   </section>
@@ -264,45 +264,53 @@
 <script>
 const SITE = {
   name: "Kimberly Quisto",
-  role: "Digital Artist & Designer",
-  tagline: "I make clear, thoughtful work that people enjoy looking at and using.",
+  role: "Digital Artist & Illustrator",
+  tagline: "Your vision. Your interpretation. Your art.",
 
   // HERO (header) images. Put files in assets/. Leave "" to show a placeholder.
-  heroImage:  "",   // large artwork on the right, e.g. "assets/hero.png" (transparent PNG works best)
-  heroBanner: "",   // wide strip in the rounded pill, e.g. "assets/banner.jpg"
+  heroImage:  "slay.png",   // large artwork on the right, e.g. "assets/hero.png" (transparent PNG works best)
+  heroBanner: "no noise.png",   // wide strip in the rounded pill, e.g. "assets/banner.jpg"
   signature:  "Kimberly Quisto, Artist",   // handwritten caption under the artwork
 
   bio: [
-    "Write two or three sentences about your background and what you care about.",
-    "Add a second paragraph about your education, experience, or interests."
+    "I'm a Entertainment and Multimedia Computing Major in Digital Animation Technology (EMC-DAT) Student. I’m also an illustrator with an experience as an Art Director for a school organization. I enjoy developing visual concepts, creating illustrations, and bringing ideas to life. Art can be interpreted in many ways, that why I strive to create work that leaves room for each viewer to see it through their own perspective.",
   ],
-  skills: ["Illustration", "UI Design", "Web Development", "Motion", "Branding"],
-  tools:  ["Figma", "Photoshop", "Procreate", "Blender", "VS Code"],
+  skills: ["Storyboard",, "Creativity", "Character Design", "Illustration", "3D Modelling", "Animation", "UI Design"],
+  tools:  ["Blender", "Krita", "Figma", "Photoshop", "Unity", "Premiere Pro", "Clip Studio Paint", "VS Code"],
 
-  email: "you@example.com",
+  email: "quilltinity@gmail.com",
   socials: [
-    { label: "GitHub", short: "Gh", url: "https://github.com/yourname" },
-    { label: "Instagram", short: "Ig", url: "https://instagram.com/yourname" },
-    { label: "LinkedIn", short: "In", url: "https://linkedin.com/in/yourname" }
+    { label: "GitHub", short: "Gh", url: "https://github.com/LieeeLY" },
+    { label: "Instagram", short: "Ig", url: "https://www.instagram.com/lieee_ly/" },
+    { label: "Behance", short: "Bé", url: "https://www.behance.net/kimberlyquisto1" }
   ],
-
-  // Optional: paste a Formspree URL (https://formspree.io/f/xxxx) to receive form
-  // messages directly. Leave "" and the form opens the visitor's email app instead.
   formEndpoint: "",
 
   projects: [
-    { title: "Project One", description: "A short description of what this piece is and what you did.",
-      category: "Artwork", tags: ["Illustration", "Procreate"], type: "image", thumb: "", src: "" },
-    { title: "Project Two", description: "A short description of the problem, your approach, and the result.",
-      category: "Web", tags: ["Web", "HTML/CSS/JS"], type: "image", thumb: "", src: "" },
-    { title: "Project Three", description: "A short description of this video or animation.",
-      category: "Video", tags: ["Motion", "Blender"], type: "video", thumb: "", src: "assets/your-video.mp4" },
-    { title: "Embedded video", description: "Swap in a YouTube or Vimeo link.",
-      category: "Video", tags: ["Video"], type: "embed", thumb: "", src: "https://www.youtube.com/embed/YOUR_VIDEO_ID" },
-    { title: "Artwork slot", description: "Drop in another piece from your collection.",
-      category: "Artwork", tags: ["Artwork"], type: "image", thumb: "", src: "" },
-    { title: "Artwork slot 2", description: "Another place for your work.",
-      category: "Artwork", tags: ["Artwork"], type: "image", thumb: "", src: "" }
+    { title: "Get Tagged Poster", description: "A school project for our game similar to Subway Surfers.",
+      category: "Artwork", tags: ["Illustration", "Krita"], type: "image", thumb: "", src: "Get tagged finalized~1.png" },
+    { title: "Jinx from Arcane", description: "I created this fanart after the released of the series of Arcane.",
+      category: "Fanart", tags: ["Fanart", "Krita"], type: "image", thumb: "", src: "jinx filter.png" },
+    { title: "Short clip from Project GenZ (school project)", description: "An exaggerated flying slipper from our 2d film titled Project GenZ.",
+      category: "Video", tags: ["Animation", "Adobe Animate"], type: "video", thumb: "Flying slipper", src: "slipper.mp4" },
+    { title: "Rotoscope animation project", description: "Self reference for Magik.",
+      category: "Video", tags: ["Video"], type: "video", thumb: "", src: "magik final_1.mp4" },
+    { title: "Liway Turn-around Character Design", description: "Character Turn-around design for our school project.",
+      category: "Game Art Asset", tags: ["Artwork", "Character Design"], type: "image", thumb: "", src: "blackmask.png" },
+    { title: "Forgotten Strokes UI", description: "This is from a previous school project.",
+      category: "Game Art Asset", tags: ["Artwork", "UI"], type: "image", thumb: "", src: "ui2.png" },
+    { title: "Behind the scene of Sequence 8 from Project GenZ (school project)", description: "2 persons looking nervous.",
+      category: "Video", tags: ["Animation", "Adobe Animate"], type: "video", thumb: "Nervous", src: "sequence 8.mp4" },
+    { title: "Unity Character Testing", description: "Character testing all the movements.",
+      category: "Game Art Asset", tags: ["Animation", "Unity"], type: "video", thumb: "", src: "Screen Recording 2025-10-08 152306.mp4" },
+    { title: "Character Design", description: "Character design for my 3D Model.",
+      category: "Game Art Asset", tags: ["Artwork", "Character Design"], type: "image", thumb: "", src: "dat elec.png" },
+    { title: "Character Design for unity", description: "Character design that is inspired from our school uniform.",
+      category: "Game Art Asset", tags: ["Artwork", "Character Design"], type: "image", thumb: "", src: "OC.png" },
+    { title: "Caine from The Amazing Digital Circus", description: "A short description of the problem, your approach, and the result.",
+      category: "Fanart", tags: ["Fanart", "Krita"], type: "image", thumb: "", src: "caine~1.png" },
+    { title: "Poem Illustration", description: "A school organization (The Journal) illustration for a poem titled The Fire Within.",
+      category: "Artwork", tags: ["Illustration", "Krita"], type: "image", thumb: "", src: "The Fire Within~1.png" },
   ]
 };
 
